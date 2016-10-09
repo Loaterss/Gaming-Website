@@ -1,0 +1,371 @@
+body
+{
+	background-color: rgba(255, 0, 0, 0.2);
+	font-family:sans-serif;
+	font-size: 12px;
+	-webkit-animation-name: example;
+	-webkit-animation-duration: 20s;
+	-webkit-animation-iteration-count: infinite;
+}
+
+.game {
+	-webkit-transition: all 1s ease; 
+    -moz-transition: all 1s ease; 
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.game :hover{
+	-webkit-transform:scale(1.1); 
+    -moz-transform:scale(1.1); 
+    -ms-transform:scale(1.1);
+    -o-transform:scale(1.1); 
+     transform:scale(1.1);
+}
+
+
+h1,h2{
+	color:black;
+	text-shadow:2px 2px lightblue;
+	background:rgba(255, 0, 0, 0.6);
+	padding: 15px 32px;
+	border-radius:10px;
+}
+
+h2:hover{
+	background-color:rgba(255, 0, 0, 0.3);
+	transition:1s;
+}
+
+#header
+{
+	background-color: rgba(255, 0, 0, 0.0);
+	font-size: 16px;
+	padding: 10px 10px;
+}
+
+#header3
+{
+	background-color: rgba(255, 0, 0, 0.4);
+	font-size: 16px;
+	padding: 10px 10px;
+	width:250px;
+	height:480px;
+	position:absolute;
+	left:1.3%;
+}
+
+#header4
+{
+	background-color: rgba(255, 0, 0, 0.0);
+	font-size: 20px;
+	text-shadow:2px 2px lightblue;
+	font-family:verdana;
+	padding: 1px 10px 20px 10px;
+	font-weight:bold;
+	text-align:center;
+	left:300px;
+	position:absolute;
+}
+
+#header1
+{
+	background-color: rgba(255, 0, 0, 0.0);
+	font-size: 16px;
+	padding: 10px 10px;
+}
+
+#header2
+{
+	background-color: rgba(255, 0, 0, 0.0);
+	font-size: 20px;
+	text-shadow:2px 2px lightblue;
+	font-family:verdana;
+	padding: 1px 10px 20px 10px;
+	font-weight:bold;
+}
+
+#video{
+	border:1px solid red;background:white; position:absolute; left:5%;top:26% ; font-size:14px;padding:5px;
+}
+
+#video:hover{
+	background:#FBD3F6;
+	transition:2s;
+}
+
+ul
+{
+	list-style-type: none;
+    margin: 0;
+    padding: 14px 16px;
+    overflow: hidden;
+    background-color: rgba(255, 0, 0, 0.4);
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+	font-family:verdana;
+	font-weight:bold;
+    text-align: center;
+    padding: 26px 50px;
+	cursor:pointer;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgba(255, 0, 0, 0.8);
+	transition:1s;
+}
+
+
+/*@-webkit-keyframes example {
+    0%   {background-color: white;}
+    25%  {background-color: lightgrey;}
+    50%  {background-color: grey;}
+    100% {background-color: lightgrey;}
+}*/
+
+.btn1 {
+	background-color: hsl(0, 100%, 30%);
+    border-style: outset;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0px 2px;
+    cursor: pointer;
+	border-radius: 15px;
+}
+.btn1:hover{
+	background-color: rgba(255, 0, 0, 0.8);
+	transition:1s;
+}
+
+.btn2 {
+	background-color: hsl(0, 100%, 30%);
+    border-style: outset;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0px 2px;
+    cursor: pointer;
+	border-radius: 15px;
+}
+
+.btn2:hover{
+	background-color: rgba(255, 0, 0, 0.8);
+	transition:1s;
+}
+
+/*
+#btnimg {
+	background-color: hsl(0, 100%, 30%);
+    border-style: outset;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 0px 2px;
+    cursor: pointer;
+	border-radius: 15px;
+}
+#btnimg:hover{
+	background-color: rgba(255, 0, 0, 0.8);
+	transition:1s;
+}
+*/
+.circular {
+
+			border-radius: 50%;
+            overflow: hidden;
+            width: 150px;
+            height: 150px;
+			
+         }
+.circular img {
+	    display: block;
+            min-width: 100%;
+            min-height: 100%;
+			
+            }
+}
+
+.circular {
+	-webkit-transition: all 1s ease; 
+    -moz-transition: all 1s ease; 
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+	
+}
+
+.circular :hover{
+	-webkit-transform:scale(1.05); 
+    -moz-transform:scale(1.05); 
+    -ms-transform:scale(1.05);
+    -o-transform:scale(1.05); 
+     transform:scale(1.05);
+	 
+}
+
+.abt
+{
+	background-color:rgba(0,0,255,0.4);
+	font-family:sans-serif;
+	font-size: 12px;
+}
+
+#text{
+    background-color: #e6ffe6;
+    border-style: outset;
+    color: #404040;
+    padding: 10px 10px;
+    font-size: 16px;
+    margin: 0px 2px;
+	border-radius: 5px;
+	font-weight:bold;
+	font-family:verdana;
+}
+
+#text:hover{
+	background-color: white;
+	transition:1s;
+}
+
+#text2{
+    background-color: #e6ffe6;
+	width:220px;
+    border-style: outset;
+    color: #404040;
+    padding: 10px 10px;
+    font-size: 12px;
+    margin: 0px 2px;
+	border-radius: 5px;
+	font-weight:bold;
+	font-family:verdana;
+}
+
+#text2:hover{
+	background-color: white;
+	transition:1s;
+}
+
+.button1 {
+  display: inline-block;
+  border-radius: 4px;
+    background-color: hsl(0, 100%, 30%);
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  border-radius: 12px;
+}
+
+.button1 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button1 span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button1:hover span {
+  padding-right: 25px;
+}
+
+.button1:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+tr :hover{
+    color: red;
+	font-weight:600;
+}
+
+#outerbox
+{
+	width:1300px;
+	overflow:hidden;
+}
+#sliderbox
+{
+	position:relative;
+	width:5200px;
+	animation-name:anime;
+	animation-duration:20s;
+	animation-iteration-count:infinite;
+}
+#sliderbox img
+{
+	float:left;
+	
+}
+
+@keyframes anime
+{
+0%
+{
+left:0px;
+}
+20%
+{
+left:0px;
+}
+25%
+{
+left:-1300px;
+}
+45%
+{
+left:-1300px;
+}
+50%
+{
+left:-2600px;
+}
+70%
+{
+left:-2600px;
+}
+75%
+{
+left:-3900px;
+}
+95%
+{
+left:-3900px;
+}
+100%
+{
+left:-3900px;
+}
+}

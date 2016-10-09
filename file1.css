@@ -1,0 +1,153 @@
+body {
+	background:rgba(255, 0, 0, 0.2);
+	font-family:arial;
+}
+
+h1{
+	color:#555;
+	background:rgba(255, 0, 0, 0.6);
+	padding: 15px 32px;
+}
+
+h2
+{
+	color:#555;
+	background:rgba(255, 0, 0, 0.6);
+	padding: 5px 5px;
+}
+
+h2:hover{
+	background-color:rgba(255, 0, 0, 0.3);
+	transition:1s;
+}
+
+table{
+	font-family:verdana;
+	font-weight:bold;
+    text-align: left;
+	border-collapse: collapse;
+}
+
+th {
+    text-shadow:1px 1px #330000;
+	color:#e60000;
+	padding:15px 40px;
+    text-align: left;
+	border-bottom: 1px solid rgba(255, 0, 0, 0.2);
+}
+
+td{
+    color:#ff3333;
+	padding:15px 40px;
+    text-align: left;
+	border-bottom: 1px solid rgba(255, 0, 0, 0.2);
+}
+
+caption{
+	text-shadow:1px 1px #330000;
+	color:#e60000;
+	padding:15px;
+}
+
+caption:hover{
+	background-color:rgba(255,0,0,0.3);
+}
+
+tr:hover{
+	background-color:#ffe6e6;
+}
+
+a{
+	color:green;
+}
+
+h3{
+	background:rgba(255, 0, 0, 0.4);
+	color:white;
+	padding: 10px 2px 10px 10px;
+}
+
+ul{
+	list-style-type: none;
+    margin: 0;
+    padding: 14px 16px;
+    overflow: hidden;
+    background-color: rgba(255, 0, 0, 0.4);
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+	font-family:verdana;
+	font-weight:bold;
+    text-align: center;
+    padding: 26px 50px;
+	cursor:pointer;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgba(255, 0, 0, 0.8);
+	transition:1s;
+}
+
+#special{
+	background:#123;
+	color:blue;
+}
+
+#divgame{
+	width:70%;
+	position:absolute;
+}
+
+#divleader{
+	position:absolute;
+	top: 20%;
+	left: 73%;
+}
+
+#button {
+    background-color: hsl(0, 100%, 30%);
+    border-style: outset;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+	border-radius: 15px;
+}
+
+#button:hover {
+    background-color: rgba(255, 0, 0, 0.8);
+	transition:1s;
+	
+}
+
+#text1{
+    background-color: #e6ffe6;
+    border-style: outset;
+    color: #003300;
+    padding: 15px 32px;
+    text-align: right;
+    font-size: 20px;
+    margin: 4px 2px;
+	border-radius: 5px;
+	font-weight:bold;
+	font-family:verdana;
+}
+
+#check {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    margin: 4px 2px;
+	border-radius: 15px;
+}
